@@ -4,6 +4,7 @@ import HeroSection from "./component/HeroSection";
 import TechCard from "./component/TechCard";
 import Stack from "./component/Stack";
 import type { Tech } from "./types";
+import Footer from "./component/Footer";
 import "./App.css";
 
 function App() {
@@ -125,6 +126,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer/>
     </div>
   );
 }
