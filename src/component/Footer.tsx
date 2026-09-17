@@ -21,19 +21,19 @@ const Footer = () => {
             </p>
 
             <div className="flex justify-center md:justify-start gap-3 mt-4 text-xs">
-              <a href="#github" className="hover:text-pink-600">
+              <a href="" className="hover:text-pink-600">
                 GitHub
               </a>
 
               <span>•</span>
 
-              <a href="#twitter" className="hover:text-pink-600">
+              <a href="" className="hover:text-pink-600">
                 Twitter
               </a>
 
               <span>•</span>
 
-              <a href="#linkedin" className="hover:text-pink-600">
+              <a href="" className="hover:text-pink-600">
                 LinkedIn
               </a>
             </div>
@@ -41,28 +41,28 @@ const Footer = () => {
           </div>
 
 
-          {/* Product */}
+    
           <div>
             <h3 className="text-xs font-bold text-gray-900 uppercase">
               Product
             </h3>
 
-            <ul className="mt-3 space-y-2 text-xs text-gray-400">
+            <ul className="mt-3 space-y-2 text-xs text-gray-500">
 
               <li>
-                <a href="#home" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#tech" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Technologies
                 </a>
               </li>
 
               <li>
-                <a href="#projects" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Projects
                 </a>
               </li>
@@ -77,22 +77,22 @@ const Footer = () => {
               Company
             </h3>
 
-            <ul className="mt-3 space-y-2 text-xs text-gray-400">
+            <ul className="mt-3 space-y-2 text-xs text-gray-500">
 
               <li>
-                <a href="#about" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#contact" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Contact
                 </a>
               </li>
 
               <li>
-                <a href="#careers" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Careers
                 </a>
               </li>
@@ -105,16 +105,16 @@ const Footer = () => {
               Legal
             </h3>
 
-            <ul className="mt-3 space-y-2 text-xs text-gray-400">
+            <ul className="mt-3 space-y-2 text-xs text-gray-500">
 
               <li>
-                <a href="#privacy" className="hover:text-gray-700">
+                <a href="#privacy" className="hover:text-gray-800">
                   Privacy Policy
                 </a>
               </li>
 
               <li>
-                <a href="#terms" className="hover:text-gray-700">
+                <a href="" className="hover:text-gray-800">
                   Terms of Service
                 </a>
               </li>
@@ -124,8 +124,6 @@ const Footer = () => {
 
         </div>
 
-
-        {/* Bottom Section */}
         <div className="mt-12 pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
 
           <p>
@@ -134,11 +132,11 @@ const Footer = () => {
 
           <div className="flex gap-4">
 
-            <a href="#privacy" className="hover:text-gray-600">
+            <a href="" className="hover:text-gray-600">
               Privacy
             </a>
 
-            <a href="#terms" className="hover:text-gray-600">
+            <a href="" className="hover:text-gray-600">
               Terms
             </a>
 
