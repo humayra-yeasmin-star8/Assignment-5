@@ -14,9 +14,7 @@ const TechCard = ({
     <div className="bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
 
       <div className="flex items-start justify-between">
-        <img
-          src={technology.icon}
-          alt={technology.name}
+        <img src={technology.icon} alt={technology.name}
           className="w-12 h-12 object-contain"
         />
 

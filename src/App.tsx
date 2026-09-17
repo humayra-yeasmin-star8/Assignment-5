@@ -84,9 +84,9 @@ function App() {
         </div>
       )}
 
-      <main className="w-full flex-1">
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="mb-8 text-center md:text-left">
+      <main className="w-full flex-2">
+        <section className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-0">
+          <div className="mb-9 text-center md:text-left">
             <h2 className="text-3xl font-extrabold text-gray-900">
               Explore the <span className="text-pink-600">Technologies</span>
             </h2>
@@ -95,7 +95,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-9 items-start">
             <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {loading ? (
                 <p className="text-gray-400 text-sm col-span-full">Loading technologies...</p>
@@ -115,13 +115,13 @@ function App() {
               )}
             </div>
 
-            <div className="lg:col-span-1 sticky top-6">
-              <Stack
-                stack={stack}
-                onRemove={handleRemove}
-                onRemoveAll={handleRemoveAll}
-              />
-            </div>
+            <aside className="lg:col-span-1 lg:sticky lg:top-24 self-start">
+            <Stack
+              stack={stack}
+              onRemove={handleRemove}
+              onRemoveAll={handleRemoveAll}
+            />
+          </aside>
           </div>
         </section>
       </main>
