@@ -20,6 +20,15 @@ DevStack is a simple web application where users can explore different technolog
 * ❌ Remove individual technologies from your stack.
 * 🗑️ Remove all technologies from your stack.
 * 📱 Responsive user interface.
+## 📦 Dependencies
+
+- React 19.2.8
+- React DOM 19.2.8
+- Tailwind CSS 4.3.3
+- DaisyUI 5.7.38
+- Vite 8.3.0
+- TypeScript 6.0.2
+- Oxlint 1.81.0
 
 ## 💻 Run Locally
 
