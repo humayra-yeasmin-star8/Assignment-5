@@ -2,9 +2,6 @@
 
 DevStack is a simple web application where users can explore different technologies and build their own personalized technology stack.
 
-## 📸 Preview
-
-![DevStack Screenshot](YOUR_SCREENSHOT_URL)
 
 ## 🚀 Live Demo
 
